@@ -1,5 +1,4 @@
-# ChromeStealPassword
-
+# ChromePasswordSteal
 #Setup
 1. Open the code
 2. Change the "hooklink" to your discord webhook link
